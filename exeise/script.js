@@ -53,8 +53,8 @@ function Student(firstName, lastName, age, academyName, studentId) {
   };
 }
 
-let student1 = new Student("Milan", "Ognjanoski", 30, "Web Development", 22);
-let student2 = new Student("Clifford", "Smith", 22, "QA Testing", 23);
+let student1 = new Student("Sedat", "mustafa", 23, "Web Development", 23);
+let student2 = new Student("Melik", "batikan", 22, "architect", 22);
 
 console.log(student1);
 student1.study();
@@ -124,9 +124,9 @@ Person.prototype.getAcademy = function (studentObj) {
   console.log(`${this.firstName} ${this.lastName} is in ${this.academyName}`);
 };
 
-let code = new CodeStudent("Milan", "Ognjanoski", 30, 1, true, false);
-let design = new DesignStudent("Sedat", "Mustafa", 23, 2, true);
-let network = new NetworkStudent("Martin", "Zekoski", 29, 3, 3);
+let code = new CodeStudent("batikan", "balci", 23, 1, true, false);
+let design = new DesignStudent("melik", "kadri", 22, 2, true);
+let network = new NetworkStudent("elon", "musk", 40, 3, 3);
 
 console.log("--- Code Student ---");
 console.log(code);
